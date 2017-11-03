@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<body>
+<html>
+
 <?php
 $number = rand(1,6);
 if ($number = "1") {
@@ -8,5 +8,5 @@ if ($number = "1") {
     echo "Winner!";
 }
 ?>
-<body>
+
 <html>
