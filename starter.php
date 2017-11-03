@@ -2,13 +2,13 @@
 <body>
 <?php
 $number = rand(6,1);
-echo "$number <br>";
+echo "You rolled $number ! <br>";
 
 if ($number == 1) {
-    echo "Almost Snake Eyes!";
+    echo "Almost Snake Eyes !";
 }
 elseif ($number == 6) {
-    echo "Winner!";
+    echo "Winner !";
 }
 else {
     echo "Better luck next time";
