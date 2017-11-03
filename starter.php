@@ -2,7 +2,7 @@
 <body>
 <?php
 $number = rand(6,1);
-echo $number;
+echo "$number <br>";
 
 if ($number == 1) {
     echo "Almost Snake Eyes!";
